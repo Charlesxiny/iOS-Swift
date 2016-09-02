@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Emoji_StackView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3Tf-UV-31A">
+                                <rect key="frame" x="329" y="89" width="30" height="360"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WGk-nQ-U9t">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="⚙️"/>
+                                        <connections>
+                                            <action selector="displayEmoji:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XZi-LH-JWL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wln-3d-YkW">
+                                        <rect key="frame" x="0.0" y="30" width="30" height="30"/>
+                                        <state key="normal" title="😄"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="stT-WR-MLc">
+                                        <rect key="frame" x="0.0" y="60" width="30" height="30"/>
+                                        <state key="normal" title="😫"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dp9-re-m3K">
+                                        <rect key="frame" x="0.0" y="90" width="30" height="30"/>
+                                        <state key="normal" title="😊"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyJ-b8-xuG">
+                                        <rect key="frame" x="0.0" y="120" width="30" height="30"/>
+                                        <state key="normal" title="🙂"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3H-hS-l1G">
+                                        <rect key="frame" x="0.0" y="150" width="30" height="30"/>
+                                        <state key="normal" title="😎"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pej-H9-Z8L">
+                                        <rect key="frame" x="0.0" y="180" width="30" height="30"/>
+                                        <state key="normal" title="😳"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw1-dG-o1a">
+                                        <rect key="frame" x="0.0" y="210" width="30" height="30"/>
+                                        <state key="normal" title="😂"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fg9-v4-5JO">
+                                        <rect key="frame" x="0.0" y="240" width="30" height="30"/>
+                                        <state key="normal" title="😋"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TSy-OO-XR9">
+                                        <rect key="frame" x="0.0" y="270" width="30" height="30"/>
+                                        <state key="normal" title="😛"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FrR-pS-PHx">
+                                        <rect key="frame" x="0.0" y="300" width="30" height="30"/>
+                                        <state key="normal" title="😡"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxO-yV-QBU">
+                                        <rect key="frame" x="0.0" y="330" width="30" height="30"/>
+                                        <state key="normal" title="👿"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3Tf-UV-31A" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="69" id="C5X-f2-FNy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Tf-UV-31A" secondAttribute="trailing" id="Jrb-VE-QtJ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outletCollection property="emojiCollection" destination="Wln-3d-YkW" collectionClass="NSMutableArray" id="JEh-ni-VEr"/>
+                        <outletCollection property="emojiCollection" destination="stT-WR-MLc" collectionClass="NSMutableArray" id="Um8-7F-lC5"/>
+                        <outletCollection property="emojiCollection" destination="Dp9-re-m3K" collectionClass="NSMutableArray" id="YK1-7F-k1i"/>
+                        <outletCollection property="emojiCollection" destination="dyJ-b8-xuG" collectionClass="NSMutableArray" id="WJG-fx-uzP"/>
+                        <outletCollection property="emojiCollection" destination="F3H-hS-l1G" collectionClass="NSMutableArray" id="Q8p-KV-8iC"/>
+                        <outletCollection property="emojiCollection" destination="Pej-H9-Z8L" collectionClass="NSMutableArray" id="xCd-ZM-TEd"/>
+                        <outletCollection property="emojiCollection" destination="qw1-dG-o1a" collectionClass="NSMutableArray" id="oMq-lh-LH6"/>
+                        <outletCollection property="emojiCollection" destination="Fg9-v4-5JO" collectionClass="NSMutableArray" id="sYk-4v-x49"/>
+                        <outletCollection property="emojiCollection" destination="TSy-OO-XR9" collectionClass="NSMutableArray" id="NR3-yc-lXH"/>
+                        <outletCollection property="emojiCollection" destination="FrR-pS-PHx" collectionClass="NSMutableArray" id="g9q-9M-aOv"/>
+                        <outletCollection property="emojiCollection" destination="LxO-yV-QBU" collectionClass="NSMutableArray" id="gnh-vk-Vin"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
